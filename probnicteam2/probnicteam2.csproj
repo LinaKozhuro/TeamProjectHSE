@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Operations\Involution.cs" />
     <Compile Include="Operators\Operator3.cs" />
     <Compile Include="Some Sample Functions\Degree.cs" />
