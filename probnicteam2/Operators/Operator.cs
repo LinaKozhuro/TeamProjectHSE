@@ -16,7 +16,8 @@ namespace probnicteam2
         }
         protected readonly Function leftFunc;
 
-        // qwertyuio
+        // qwукенгш
+        //sdfghjooiuytrwsedfghjk
         protected readonly Function rightFunc;
     }
 }
