@@ -14,11 +14,13 @@ namespace probnicteam2
         public static readonly Function Sin = new Sin();
         public static readonly Function Cos = new Cos();
         public static readonly Function Ln = new Logarifm();
+        public static readonly Function One = new Constant(1);
+        public static readonly Function Two = new Constant(2);
 
         public static readonly Function Tan = Sin / Cos;
         public static readonly Function Ctg = Cos / Sin;
-        public static readonly Function Sh = (Exp - 1 / Exp) / 2;
-        public static readonly Function Ch = (Exp + 1 / Exp) / 2;
+        public static readonly Function Sh = (Exp - One / Exp) / Two;
+        public static readonly Function Ch = (Exp + One / Exp) / Two;
         public static readonly Function Tgh = Sh / Ch;
         public static readonly Function Cth = Sh / Ch;
     }

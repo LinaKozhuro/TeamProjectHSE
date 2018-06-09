@@ -32,5 +32,10 @@ namespace probnicteam2
         {
             return new Minus(a, b);
         }
+        public static Function operator ^(Function q)
+        {
+            return new Involution(q);
+        }
+        
     }
 }
