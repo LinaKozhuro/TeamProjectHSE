@@ -24,6 +24,12 @@ namespace probnicteam2
         {
             return new Multiplication(a, b);
         }
+
+        public static Function operator *(double k, Function b)
+        {
+            return new Constant(k) * b;
+        }
+
         public static Function operator /(Function c, Function d)
         {
             return new Division(d, c);
